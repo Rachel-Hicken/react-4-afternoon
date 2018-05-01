@@ -18,6 +18,7 @@ export default class Student extends Component {
   }
 
   render() {
+    // console.log(this.state.studentInfo)
     return (
       <div className="box">
         <h1>Student:</h1>

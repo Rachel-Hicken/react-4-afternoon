@@ -20,7 +20,7 @@ export default class ClassList extends Component {
 
   render() {
     const students=this.state.students.map((el, i)=>(
-      <Link to='/student/:id' key={i}>
+      <Link to={`/student/${el.id}`} key={i}>
       <h3 >{el.first_name}{el.last_name}</h3>
       </Link>
     ))
